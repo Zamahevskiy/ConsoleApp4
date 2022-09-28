@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-     class Категория : Товар
+     class Category : Goods
     {
-        public int MasivTovarov { get; set; }
-        public void uКатегория()
+       
+        public int ArrayOfGoods { get; set; }
+        public void uCategory()
         {
-            Console.WriteLine($"Имя: {name} Масив товаров: {MasivTovarov}");
+            Console.WriteLine($"Имя: {name} Масив товаров: {ArrayOfGoods}");
         }
     }
 }
