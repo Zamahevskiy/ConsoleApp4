@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-     class Товар
+     class Goods
     {
         public string name { get; set; }
-        public int cena { get; set; }
-        public int rayting { get; set; }
-        public void uТовар()
+        public int price { get; set; }
+        public int rating { get; set; }
+        public void uGoods()
         {
-            Console.WriteLine($"Товар: {name} Цена: {cena} Рейтинг: {rayting}");
+            Console.WriteLine($"Товар: {name} Цена: {price} Рейтинг: {rating}");
         }
     }
 }
