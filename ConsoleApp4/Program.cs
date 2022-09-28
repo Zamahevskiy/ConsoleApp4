@@ -1,19 +1,19 @@
-﻿using System;
+using System;
 using ConsoleApp4;
 
-namespace Program
+namespace ConsoleApp4
 {
      class Program : User
     {
         static void Main(string[] args)
         {
-            Товар товар = new Товар { name = "Banana", cena = 30, rayting = 10 };
-            товар.uТовар();
-            Категория категория = new Категория { name = "Good",  MasivTovarov = 7 };
-            Категория категория1 = new Категория { name = "Exelent",  MasivTovarov = 10 };
-            категория.uКатегория();
-            категория1.uКатегория();
-            Basket basket = new Basket { MasivBuyTovarov = 25 };
+            Goods goods = new Goods { name = "Banana", price = 30, rating = 10 };
+            goods.uGoods();
+            Category category7 = new Category { name = "Good", ArrayOfGoods = 7 };
+            Category category10 = new Category { name = "Exelent", ArrayOfGoods = 10 };
+            category7.uCategory();
+            category10.uCategory();
+            Basket basket = new Basket { ArrayOfPurchasedGoods = 10 };
             basket.uBasket();
             User user = new User { login = "ProstoBOG", password = "8(800)555-35-35" };
             user.uUser();
